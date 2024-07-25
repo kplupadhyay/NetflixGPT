@@ -6,7 +6,7 @@
 //   },
 // };
 
-const options = {
+export const options = {
   method: "GET",
   headers: {
     accept: "application/json",
@@ -14,3 +14,5 @@ const options = {
       "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZmI3Yjc4MWFhNGNjOWM5ZTY4MzNhZTEzMTYwOTkwNiIsIm5iZiI6MTcyMTY1MzczOC43MDY4NjYsInN1YiI6IjY2OWU0ZjgxZjYxZDk0ZDE3Yzk4ZDEyOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CxeTbQmCkK4J-_ik9lcSIEAJq_Rz91T2Ml4haT4QFec",
   },
 };
+
+export const IMG_URL = "https://image.tmdb.org/t/p/w500";

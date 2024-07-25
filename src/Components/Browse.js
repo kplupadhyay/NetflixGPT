@@ -21,7 +21,7 @@ export default function Browse() {
 
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex justify-between relative">
         <Header />
         <div className="flex">
           <img

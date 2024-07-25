@@ -9,11 +9,11 @@ export default function MainContainer() {
   //   console.log(movies);
   if (movies == null) return;
   const mainMovie = movies[0];
-  console.log(mainMovie);
+  //   console.log(mainMovie);
 
   const { original_title, overview, id } = mainMovie;
   return (
-    <div>
+    <div className="-mt-20">
       <VideoTitle title={original_title} overview={overview} />
       <VideoBackground movieId={id} />
     </div>
